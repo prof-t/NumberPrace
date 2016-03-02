@@ -5,6 +5,7 @@
 //  Created by 山口 徹 on 2016/03/01.
 //  Copyright (c) 2016年 山口 徹. All rights reserved.
 //
+// hoge
 
 #import "SudokuSample.h"
 
