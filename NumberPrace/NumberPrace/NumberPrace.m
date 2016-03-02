@@ -21,16 +21,16 @@ static NSInteger const MaxNum = 9;
 // 横マスの数字配列
 @property (nonatomic,strong) NSArray *horizontalArray;
 
-// 行の数字を格納する配列(1〜9マス分)
-@property (nonatomic,strong) NSMutableArray *row1stNumArray;
-@property (nonatomic,strong) NSMutableArray *row2ndNumArray;
-@property (nonatomic,strong) NSMutableArray *row3rdNumArray;
-@property (nonatomic,strong) NSMutableArray *row4thNumArray;
-@property (nonatomic,strong) NSMutableArray *row5thNumArray;
-@property (nonatomic,strong) NSMutableArray *row6thNumArray;
-@property (nonatomic,strong) NSMutableArray *row7thNumArray;
-@property (nonatomic,strong) NSMutableArray *row8thNumArray;
-@property (nonatomic,strong) NSMutableArray *row9thNumArray;
+//// 行の数字を格納する配列(1〜9マス分)
+//@property (nonatomic,strong) NSMutableArray *row1stNumArray;
+//@property (nonatomic,strong) NSMutableArray *row2ndNumArray;
+//@property (nonatomic,strong) NSMutableArray *row3rdNumArray;
+//@property (nonatomic,strong) NSMutableArray *row4thNumArray;
+//@property (nonatomic,strong) NSMutableArray *row5thNumArray;
+//@property (nonatomic,strong) NSMutableArray *row6thNumArray;
+//@property (nonatomic,strong) NSMutableArray *row7thNumArray;
+//@property (nonatomic,strong) NSMutableArray *row8thNumArray;
+//@property (nonatomic,strong) NSMutableArray *row9thNumArray;
 
 @property (nonatomic,strong) NSMutableArray *candidateNumArray;
 
