@@ -42,8 +42,8 @@
     
     // test 1行目 5列目
 
-
-    
+    UIButton *hogeButon = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 0, 0)];
+    [self.view addSubview:hogeButon];
     
     NSLog(@"");
 }
