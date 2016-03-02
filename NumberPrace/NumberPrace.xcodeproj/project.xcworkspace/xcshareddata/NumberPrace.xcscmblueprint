@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B6F153A7B08B3A238D43BA7F25023BCEB0198735",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B6F153A7B08B3A238D43BA7F25023BCEB0198735" : 0,
+    "4817743DF9F0CD97E27B5C079422C0D0AF3087BE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BFA2E401-2B5B-47A9-B1C5-D59096F6D939",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B6F153A7B08B3A238D43BA7F25023BCEB0198735" : "NumberPrace\/",
+    "4817743DF9F0CD97E27B5C079422C0D0AF3087BE" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NumberPrace",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NumberPrace\/NumberPrace.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/prof-t\/StrayDogOverOne.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4817743DF9F0CD97E27B5C079422C0D0AF3087BE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/prof-t\/NumberPrace.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B6F153A7B08B3A238D43BA7F25023BCEB0198735"
+    }
+  ]
+}

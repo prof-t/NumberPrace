@@ -16,6 +16,8 @@
 		00FB66AA1C852651005288ED /* NumberPraceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB66A91C852651005288ED /* NumberPraceTests.m */; };
 		00FB66B51C852651005288ED /* NumberPraceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB66B41C852651005288ED /* NumberPraceUITests.m */; };
 		00FB66C41C852687005288ED /* NumberPrace.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB66C31C852687005288ED /* NumberPrace.m */; };
+		00FB66C71C867296005288ED /* SudokuSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB66C61C867296005288ED /* SudokuSample.m */; };
+		00FB66C91C86787F005288ED /* SudkuTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FB66C81C86787F005288ED /* SudkuTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		00FB66B61C852651005288ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00FB66C21C852687005288ED /* NumberPrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberPrace.h; sourceTree = "<group>"; };
 		00FB66C31C852687005288ED /* NumberPrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberPrace.m; sourceTree = "<group>"; };
+		00FB66C51C867296005288ED /* SudokuSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudokuSample.h; sourceTree = "<group>"; };
+		00FB66C61C867296005288ED /* SudokuSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudokuSample.m; sourceTree = "<group>"; };
+		00FB66C81C86787F005288ED /* SudkuTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SudkuTest.m; path = NumberPraceTests/SudkuTest.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +109,8 @@
 		00FB668E1C852651005288ED /* NumberPrace */ = {
 			isa = PBXGroup;
 			children = (
+				00FB66C51C867296005288ED /* SudokuSample.h */,
+				00FB66C61C867296005288ED /* SudokuSample.m */,
 				00FB66921C852651005288ED /* AppDelegate.h */,
 				00FB66931C852651005288ED /* AppDelegate.m */,
 				00FB66951C852651005288ED /* ViewController.h */,
@@ -115,6 +122,7 @@
 				00FB669D1C852651005288ED /* LaunchScreen.storyboard */,
 				00FB66A01C852651005288ED /* Info.plist */,
 				00FB668F1C852651005288ED /* Supporting Files */,
+				00FB66C81C86787F005288ED /* SudkuTest.m */,
 			);
 			path = NumberPrace;
 			sourceTree = "<group>";
@@ -277,6 +285,7 @@
 			files = (
 				00FB66C41C852687005288ED /* NumberPrace.m in Sources */,
 				00FB66971C852651005288ED /* ViewController.m in Sources */,
+				00FB66C71C867296005288ED /* SudokuSample.m in Sources */,
 				00FB66941C852651005288ED /* AppDelegate.m in Sources */,
 				00FB66911C852651005288ED /* main.m in Sources */,
 			);
@@ -286,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00FB66C91C86787F005288ED /* SudkuTest.m in Sources */,
 				00FB66AA1C852651005288ED /* NumberPraceTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +514,7 @@
 				00FB66BB1C852651005288ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00FB66BC1C852651005288ED /* Build configuration list for PBXNativeTarget "NumberPraceTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +523,7 @@
 				00FB66BE1C852651005288ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00FB66BF1C852651005288ED /* Build configuration list for PBXNativeTarget "NumberPraceUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +532,7 @@
 				00FB66C11C852651005288ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
